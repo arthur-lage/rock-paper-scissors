@@ -18,7 +18,7 @@ A responsive Rock, Paper, Scissors game made using javascript🎮🎮.
 
 # 🎮 Play the game online
 
-Click here to play [Rock Paper Scissors](https://rock-paper-scissors-al.vercel.app)
+Click here to play [Rock, Paper, Scissors](https://rock-paper-scissors-al.vercel.app)
 
 # ⬇ Use the project in your computer
 
