@@ -1,4 +1,4 @@
-# rock-paper-scissors
+# Rock, Paper, Scissors
 
 A responsive Rock, Paper, Scissors game made using javascript🎮🎮.
 
