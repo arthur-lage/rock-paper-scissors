@@ -4,11 +4,11 @@ A responsive Rock, Paper, Scissors game made using javascript🎮🎮.
 
 # 🌆 Images
 
-<img src="./assets/screenshot-1" alt="Image 1"/>
-<img src="./assets/screenshot-2" alt="Image 2"/>
-<img src="./assets/screenshot-3" alt="Image 3"/>
-<img src="./assets/screenshot-4" alt="Image 4"/>
-<img src="./assets/screenshot-1" alt="Image 5"/>
+<img src="https://github.com/arthur-lage/rock-paper-scissors/blob/main/assets/screenshot-1.png" />
+<img src="https://github.com/arthur-lage/rock-paper-scissors/blob/main/assets/screenshot-2.png" />
+<img src="https://github.com/arthur-lage/rock-paper-scissors/blob/main/assets/screenshot-3.png" />
+<img src="https://github.com/arthur-lage/rock-paper-scissors/blob/main/assets/screenshot-4.png" />
+<img src="https://github.com/arthur-lage/rock-paper-scissors/blob/main/assets/screenshot-5.png" />
 
 # 💻 Technologies used
 
