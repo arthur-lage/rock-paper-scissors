@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  --text-color: #333;
+  color: var(--text-color);
+}
+
+body.dark {
+  background: rgb(37, 35, 48);
+  --text-color: #fff;
+  color: var(--text-color);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: clamp(3rem, 2.5vw, 5rem);
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 3rem;
+}
+
+.container .score {
+display: flex;
+align-items: center;
+  font-size: clamp(3rem, 2.5vw, 5rem);
+  color: var(--text-color);
+  margin-bottom: 3rem;
+}
+
+.container .score div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  margin: 0 10rem;
+}
+
+.container .score div span:first-child {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.container .score div span:first-child::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 1px;
+  background: var(--text-color);
+}
+
+.container .choices {
+  font-size: clamp(1.6rem, 2.5vw, 2.6rem);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container .choices p {
+  margin-bottom: 1rem;
+}
+
+body .container .choices .won {
+  color: #159b36;
+}
+
+body.dark .container .choices .won {
+  color: #47f573;
+}
+
+.container .status {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  margin-bottom: 7.5rem;
+}
+
+.container .game {
+  display: flex;
+  align-items: center;
+}
+
+.container .game div {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.container .game .player {
+  margin-right: 20rem;
+}
+
+.container .game button {
+  padding: 1rem;
+  border: 0;
+  width: 10rem;
+  height: 10rem;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  border-radius: 100rem;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+.container .game button.active {
+  background: #0de944;
+}
+
+.container .game button.rock {
+  background: #0081a7;
+}
+
+.container .game button.paper {
+  background: #553bb4;
+}
+
+.container .game button.scissors {
+  background: #ff1f4f;
+}
+
+.container .game .player button:hover {
+  filter: brightness(1.3);
+}
+
+.container .game .cpu button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.theme {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#theme-toggler {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1rem;
+  border: 0;
+  width: 5rem;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  height: 5rem;
+  background: var(--text-color);
+  transition: .2s ease;
+}
+
+body #theme-toggler{
+    color: #fff;
+}
+
+body.dark #theme-toggler{
+    color: #333;
+}
+
+#theme-toggler:hover {
+    filter: brightness(.9);
+}
